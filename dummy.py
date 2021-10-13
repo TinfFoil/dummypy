@@ -3,7 +3,6 @@ import numpy as np
 # This function returns indices of the maximum element of the array in a particular axis.
 # https://devopscube.com/numpy-practical-examples/
 
-$ pipenv run python dummy.py
 # Creating 5x4 array
 array = np.arange(20).reshape(5, 4)
 print(array)
