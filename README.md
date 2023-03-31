@@ -6,10 +6,10 @@ You can play with dummy.py to understand how the CLI based on [argparse](https:/
 Try the following:
 
 ```
-$ python3 dummy.py 
-$ python3 dummmpy.py -h
-$ python3 dummy.py -m 5 -n 10
-$ python3 dummy.py -m 5 -n 10 -o
-$ python3 dummy.py -m 5 -n 10 -o -r
-$ python3 dummy.py -m 5 -n 10 -o -r -c
+$ pipenv run python3 dummy.py 
+$ pipenv run python3 dummmpy.py -h
+$ pipenv run python3 dummy.py -m 5 -n 10
+$ pipenv run python3 dummy.py -m 5 -n 10 -o
+$ pipenv run python3 dummy.py -m 5 -n 10 -o -r
+$ pipenv run python3 dummy.py -m 5 -n 10 -o -r -c
 ```
